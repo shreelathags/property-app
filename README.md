@@ -2,13 +2,18 @@
 
 ## Prerequisites
 php 7.4
+
 npm 6.14.17
+
 node v14.21.1 (https://github.com/nvm-sh/nvm) 
+
 composer
 
 Run
 `composer install`
+
 `npm install`
+
 `npm run dev`
 
 Create `.env` file from `.env.example` provided. Update the following variables in `.env`
