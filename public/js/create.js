@@ -32,7 +32,6 @@ $(document).ready(function ($) {
         jsonResponse = JSON.parse(response.responseText);
         for (var key in jsonResponse.errors) {
           labelKey = key.substring("data.".length);
-          console.log(labelKey);
           $('.' + labelKey + 'Validation').show();
         }
         $(".invalidAlert").show("slow").delay(3000).hide("slow");
